@@ -50,8 +50,6 @@ function stealMashape(event) {
   }
 }
 
-gulpfile.babel.js
-
 self.addEventListener('fetch', function (event) {
   if (stealMashape(event)) {
     return;
